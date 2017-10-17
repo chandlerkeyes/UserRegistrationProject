@@ -8,10 +8,11 @@
         jdbc:mysql://registration.cmgiitqbyhub.us-east-2.rds.amazonaws.com:3306/registration
     </property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">brokk1234567</property>
       <mapping resource="UserregistrationEntity.hbm.xml"/>
       <mapping class="com.test.models.UserregistrationEntity"/>
-      <!-- <property name="connection.username"/> -->
-    <!-- <property name="connection.password"/> -->
+        
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
